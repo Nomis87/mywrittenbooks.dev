@@ -1,0 +1,54 @@
+/* 
+    Document   : loginStyle
+    Created on : 01.12.2011, 23:16:48
+    Author     : tobias
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.login{
+  z-index: 30;
+  background: rgba(250,250,250,0.3);
+  margin-left: 143px;
+  margin-top: 25px;
+  width: 680px;
+  height: 400px; 
+  float: left;
+  border-bottom: 2px white solid;
+  border-left: 2px white solid;
+  border-right: 2px white solid;
+}
+
+.loginHeadline{
+  margin-top: -11px;
+  color: #2bbee3;
+  font-size: 20px;
+  float: left;
+  
+}
+
+.loginFirstChild{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  float: left;
+  height: 0;
+  margin-top: 0px;
+  width: 30px;
+}
+
+.loginLastchild{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  float: left;
+  height: 0;
+  margin-top: 0px;
+  width: 602px;
+}
+
+
+

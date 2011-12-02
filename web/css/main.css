@@ -1,0 +1,209 @@
+/* 
+    Document   : mainStyle
+    Created on : 01.11.2011, 11:52:42
+    Author     : tobias
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+*, html {
+    border: 0 none;
+    color: #901114;
+    font-family: Arial,Verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+div.clear {
+  clear: left;
+  font-size: 1px;
+}
+
+body{
+  background-image: url('../images/background.jpg');
+  background-color: #9b9b9b;  
+}
+
+.spaceWrapper{
+  z-index: 10;
+  margin: 0 auto;
+  width: 996px;
+  height: 10px;
+}
+
+#wrapper{
+  z-index: 10;
+  margin: 0 auto;
+  width: 996px;
+  height: auto;
+}
+
+#topContent{
+  z-index: 20;
+  margin-left: 15px;
+  width: 966px;
+  height: 228px;
+  background-image: url('../images/topContent_new.png');
+
+  
+}
+
+#logo{
+  z-index: 30;
+  position: absolute;
+  width: 250px;
+  height: 90px;
+  background-image: url('../images/logo.png');
+}
+
+.search{
+  position: absolute;
+  margin-left: 600px;  
+  margin-top: 18px;
+}
+
+.search h3{
+  font-size: 14px;
+  font-weight: lighter;
+  color: #2bbee3;
+}
+
+#search_books{
+  font-size: 95%;
+  padding-left: 5px;
+  width: 245px;
+  height: 25px;
+  background: url(../images/search-box.jpg);
+  color: black;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+#search_books_sumit{
+  background: url(../images/search_button.png) no-repeat;
+  text-indent: -9999px;
+  width: 60px;
+  height: 25px;
+  float: left;
+  
+}
+
+#leftTopTriangle{
+  z-index: 30;
+  margin-top: 75px;
+  margin-left: -15px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-image: url('../images/banner/dreieck_links_new.gif');
+  opacity: 0.8;
+}
+
+#rightTopTriangle{
+  z-index: 30;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 966px;
+  width: 15px;
+  height: 15px;
+  background-image: url('../images/banner/dreieck_rechts_new.gif'); 
+  opacity: 0.8;
+}
+
+
+#banner{
+  z-index: 30;
+  position: absolute;
+  margin-left: -15px;
+  margin-top: 90px;
+  width: 996px;
+  height: 110px;
+  background-image: url('../images/banner/banner_02.png');
+  background-color: rgba(38,35,34,0.7);
+}
+
+/*NAVIGATIONSLEISTE*/
+
+.navileiste{
+  z-index: 30;
+  position: absolute;
+  width: 966px;
+  float: left;
+  margin-top: 206px;
+  font-size: 14px;
+}
+
+.navileiste a{
+  text-decoration: none;
+  color: white;
+}
+
+.navileiste a:hover{
+  background-color: rgba(248,248,255,0.7);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: black;
+}
+
+.navileiste a:active{
+  background-color: #2bbee3; 
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: black;
+}
+
+
+.navi_li{
+  display: block;
+  float: left;
+  padding: 0 25px;
+}
+
+
+
+/*MAIN CONTENT*/
+#mainContent{
+  z-index: 20;
+  margin-left: 15px;
+  min-height: 400px;
+  width: 966px;
+  background-color: rgba(38,35,34,0.8);
+  padding-bottom: 50px;
+}
+
+/*START FOOT CONTENT*/
+#footContent{
+  z-index: 90;
+  position: relative;
+  width: 996px;
+  height: 62px;
+  background-image: url('../images/footContent.png'); 
+}
+
+#leftFooterTriangle{
+  z-index: 80;
+  position: absolute;
+  margin-top: -15px;
+  width: 15px;
+  height:15px;
+  background-image: url('../images/footer/dreieck_links_new.gif'); 
+}
+
+#rightFooterTriangle{
+  z-index: 80;
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 981px;
+  width: 15px;
+  height: 15px;
+  background-image: url('../images/footer/dreieck_rechts_new.gif');
+}
+/*END FOOT CONTENT*/

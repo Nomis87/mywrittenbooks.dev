@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/apps/backend/config
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/apps/backend/config/routing.yml
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/apps/backend/config/factories.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/apps/backend/config/filters.yml
+END
+backendConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/apps/backend/config/backendConfiguration.class.php
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/apps/backend/config/security.yml
+END
+app.yml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/apps/backend/config/app.yml
+END
+cache.yml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/apps/backend/config/cache.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/apps/backend/config/settings.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/apps/backend/config/view.yml
+END

@@ -1,0 +1,106 @@
+# config/doctrine/schema.yml
+mwb_object:
+  columns:
+    object_id:    { type: integer, notnull: true, primary: true, autoincrement: true }  
+    generated_at: { type: timestamp, notnull: true }
+    updated_at:   { type: timestamp, notnull: true }
+    title:        { type: string(255), notnull: true }
+    sites:        { type: integer}
+    description:  { type: string(4000), notnull: true }
+    price:        { type: 'decimal(6,2)', notnull: true }
+    writer:       { type: integer, notnull: true}
+    picture:      { type: string(255) }
+    documentpath: { type: string(255), notnull: true }
+    genre:        { type: integer, notnull: true }
+    language:     { type: integer, notnull: true }
+
+  relations:
+    mwb_genre:     { onDelete: cascade, local: genre, foreign: genre_id, foreignAlias: mwb_object_genre }
+    mwb_user:      { onDelete: cascade, local: writer, foreign: user_id, foreignAlias: mwb_object_writer }
+    mwb_language:  { onDelete: cascade, local: language, foreign: language_id, foreignAlias: mwb_object_language }  
+
+  indexes:
+    genreindex:
+      fields: [genre]
+
+    userindex:
+      fields: [writer]
+
+    languageindex:
+      fields: [language]
+      
+  
+mwb_genre:
+  columns:
+    genre_id:    { type: integer, notnull: true, primary: true, autoincrement: true }      
+    name:        { type: string(255), notnull: true, unique: true }
+
+mwb_language:
+  columns:
+    language_id:  { type: integer, notnull: true, primary: true, autoincrement: true }
+    shortcut:     { type: string(10), notnull: true }
+    country:      { type: string(60), notnull: true }
+    netsuffix:    { type: string(10) }  
+
+mwb_user:
+  columns:
+    generated_at: { type: timestamp, notnull: true }
+    updated_at:   { type: timestamp, notnull: true }
+    user_id:     { type: integer, notnull: true, primary: true, autoincrement: true }
+    firstname:   { type: string(40), notnull: true }
+    lastname:    { type: string(20), notnull: true }
+    email:       { type: string(40), notnull: true }
+    username:    { type: string(20), notnull: true }
+    password:    { type: string(40), notnull: true }
+    picturepath: { type: string(255) } 
+    activated:   { type: boolean, default: false }
+    
+mwb_admin:
+  columns:
+    generated_at: { type: timestamp, notnull: true }
+    updated_at:   { type: timestamp, notnull: true }
+    admin_id:    { type: integer, notnull: true, primary: true, autoincrement: true }
+    firstname:   { type: string(40), notnull: true }
+    lastname:    { type: string(20), notnull: true }
+    email:       { type: string(40), notnull: true }
+    username:    { type: string(20), notnull: true }
+    password:    { type: string(40), notnull: true }
+    picturepath: { type: string(255) }
+    superadmin:  { type: boolean, default: false }
+
+mwb_boughtObject:
+  columns:
+    buydobject_id:  { type: integer, notnull: true, primary: true, autoincrement: true }
+    user:           { type: integer, notnull: true }
+    object:         { type: integer, notnull: true }
+
+  relations:
+    mwb_user:    { onDelete: cascade, local: user, foreign: user_id, foreignAlias: mwb_buydobject_user }
+    mwb_object:  { onDelete: cascade, local: object, foreign: object_id, foreignAlias: mwb_buydobject_object }
+   
+  indexes: 
+    userindex:
+      fields: [user]
+      
+    objectindex:
+      fields: [object]
+    
+mwb_ratedObject: 
+  columns:
+    ratedObject_id:  { type: integer, notnull: true, primary: true, autoincrement: true }
+    book:            { type: integer, notnull: true }
+    
+mwb_news:
+  columns:
+    news_id:  { type: integer, notnull: true, primary: true, autoincrement: true  }
+    title:    { type: varchar(255), notnull: true }
+    writer:   { type: integer }
+    date:     { type: timestamp }
+    news:     { type: varchar(9000), notnull: true}
+    
+  relations:
+    mwb_admin: { onDelete: cascade, local: writer, foreign: admin_id, foreignAlias: mwb_news_admin }
+
+  indexes:
+    writerindex:
+      fields: [writer]

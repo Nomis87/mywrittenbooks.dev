@@ -1,0 +1,25 @@
+# data/dixtures/user.yml
+mwb_user:
+  user1:
+    firstname: Tobias
+    lastname: Simon 
+    email: t.simon@googlemail.com
+    username: nomis 
+    password: simon12
+    activated: true
+    
+  user2:
+    firstname: Hans
+    lastname: Müller 
+    email: h.mueller@gmx.de
+    username: muellman 
+    password: mueller12
+    activated: true
+    
+  user3:
+    firstname: Peter
+    lastname: Bäcker 
+    email: p.baecker@gmx.de
+    username: paeckman 
+    password: baecker12
+    activated: true  

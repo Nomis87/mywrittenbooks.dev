@@ -1,0 +1,150 @@
+/* 
+    Document   : home.css
+    Created on : 28.10.2011, 20:15:24
+    Author     : tobias
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.ueberPage{
+  z-index: 30;
+  margin-left: 13px;
+}
+
+.ueberPageHeadline{
+  margin-top: 22px;
+  margin-bottom: 20px;
+  color: #2bbee3;
+  font-size: 24px;
+  float: left;
+  
+}
+
+.ueberPageFirstChild{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  float: left;
+  height: 0;
+  margin-top: 34px;
+  width: 330px;
+}
+
+.ueberPageLastChild{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  float: left;
+  height: 0;
+  margin-top: 34px;
+  width: 330px;
+}
+
+.ueberPageContent{
+  width: 920px;
+  height: 100px;
+  background-image: url('../images/aufteilung.png');
+  margin-left: 23px;
+  clear: both;
+  font-size: 14px;
+  color: white;
+}
+
+.boxen{
+  z-index: 30;
+  float: left;
+  margin-top: 15px;
+  clear: both;
+}
+
+.BoxContent{
+  margin: 10px;
+}
+
+.BoxContent p{
+  color: black;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.regButton{
+  margin-top: 20px;
+  background-color: #2bbee3;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.derAutor{
+  z-index: 40;
+  margin-left: 33px;
+  margin-bottom: 25px;
+  width: 290px;
+  height: 180px;
+  float: left;
+  border: 2px solid #2bbee3;
+  background-color: white;
+}
+
+.derLeser{
+  z-index: 40;
+  margin-left: 10px;
+  width: 290px;
+  height: 180px;
+  float: left;
+  border: 2px solid #2bbee3;
+  background-color: white;
+}
+
+.derVerlag{
+  z-index: 40;
+  margin-left: 10px;
+  width: 290px;
+  height: 180px;
+  float: left;
+  border: 2px solid #2bbee3;
+  background-color: white;
+}
+
+.news{
+  z-index: 30;
+  margin-left: 13px;
+  clear: both;
+}
+
+.newsHeadline{
+  margin-top: 25px;
+  color: #2bbee3;
+  font-size: 18px;
+  float: left;
+  
+}
+
+.newsFirstChild{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  float: left;
+  height: 0;
+  margin-top: 36px;
+  width: 15px;
+}
+
+.newsLastchild{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  float: left;
+  height: 0;
+  margin-top: 36px;
+  width: 796px;
+}
+
+.newsContent{
+  width: 907px;
+  height: 100px;
+  margin-left: 13px;
+}
+

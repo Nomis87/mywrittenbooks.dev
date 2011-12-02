@@ -1,0 +1,4 @@
+[symfony]
+  name=mywrittenbooks.dev
+  author=Your name here
+  orm=Doctrine

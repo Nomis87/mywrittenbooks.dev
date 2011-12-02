@@ -1,0 +1,41 @@
+10
+
+dir
+3
+https://mywrittenbooks.googlecode.com/svn/trunk/mywrittenbooks.dev/apps
+https://mywrittenbooks.googlecode.com/svn
+
+
+
+2011-11-08T12:20:52.434540Z
+3
+mywrittenbooks@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+613afcd6-ec0d-48fb-c464-40eefd19b41b
+
+
+
+
+
+
+0
+
+backend
+dir
+
+frontend
+dir
+

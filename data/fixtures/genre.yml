@@ -1,0 +1,21 @@
+# data/fixtures/genre.yml
+mwb_genre:
+  biografie:
+    name: Biografie
+  comic:
+    name: Comic
+  kinderbuch:
+    name: Kinderbuch
+  romanKrimi:
+    name: Roman, Krimi
+  romanSciFi:
+    name: Roman, Science Fiction
+  romanFantasy:
+    name: Roman, Fantasy
+  romanSonstiges:
+    name: Roman, Sonstiges
+  magazin:
+    name: Magazin
+  docu:
+    name: Documentation
+  

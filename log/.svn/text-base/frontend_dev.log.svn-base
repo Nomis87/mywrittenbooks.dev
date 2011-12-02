@@ -1,0 +1,24 @@
+Nov 08 08:46:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 08 08:46:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 08 08:46:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 08 08:46:31 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 08 08:46:31 symfony [info] {sfPHPView} Render "/Users/tobias/www/Libarys/symfony-1.4.15/lib/controller/default/templates/indexSuccess.php"
+Nov 08 08:46:31 symfony [info] {sfPHPView} Decorate content with "/Users/tobias/www/Libarys/symfony-1.4.15/lib/controller/default/templates/defaultLayout.php"
+Nov 08 08:46:31 symfony [info] {sfPHPView} Render "/Users/tobias/www/Libarys/symfony-1.4.15/lib/controller/default/templates/defaultLayout.php"
+Nov 08 08:46:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 08 08:46:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 08 08:46:31 symfony [info] {sfWebDebugLogger} Configuration 277.05 ms (9)
+Nov 08 08:46:31 symfony [info] {sfWebDebugLogger} Factories 303.14 ms (1)
+Nov 08 08:46:31 symfony [info] {sfWebDebugLogger} Action "default/index" 0.23 ms (1)
+Nov 08 08:46:31 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 57.08 ms (1)
+Nov 08 08:46:31 symfony [info] {sfWebResponse} Send content (29773 o)
+Nov 08 08:51:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 08 08:51:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 08 08:51:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 08 08:51:52 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Nov 08 08:51:52 symfony [info] {sfPHPView} Render "/Users/tobias/www/Libarys/symfony-1.4.15/lib/controller/default/templates/indexSuccess.php"
+Nov 08 08:51:52 symfony [info] {sfPHPView} Decorate content with "/Users/tobias/www/Libarys/symfony-1.4.15/lib/controller/default/templates/defaultLayout.php"
+Nov 08 08:51:52 symfony [info] {sfPHPView} Render "/Users/tobias/www/Libarys/symfony-1.4.15/lib/controller/default/templates/defaultLayout.php"
+Nov 08 08:51:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 08 08:51:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 08 08:51:52 symfony [info] {sfWebResponse} Send content (28549 o)

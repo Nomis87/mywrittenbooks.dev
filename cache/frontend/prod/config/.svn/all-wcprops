@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config
+END
+modules_default_config_view.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/modules_default_config_view.yml.php
+END
+config_core_compile.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/config_core_compile.yml.php
+END
+config_settings.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/config_settings.yml.php
+END
+config_autoload.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/config_autoload.yml.php
+END
+modules_default_config_module.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/modules_default_config_module.yml.php
+END
+config_app.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/config_app.yml.php
+END
+modules_default_config_filters.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/modules_default_config_filters.yml.php
+END
+modules_default_config_security.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/modules_default_config_security.yml.php
+END
+config_config_handlers.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/config_config_handlers.yml.php
+END
+config_routing.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/config_routing.yml.php
+END
+config_databases.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/config_databases.yml.php
+END
+config_factories.yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/mywrittenbooks.dev/cache/frontend/prod/config/config_factories.yml.php
+END
